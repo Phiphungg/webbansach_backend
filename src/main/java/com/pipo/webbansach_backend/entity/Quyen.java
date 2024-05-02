@@ -13,6 +13,7 @@ public class Quyen {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "ma_quyen")
     private int maQuyen;
+
     @Column(name = "ten_quyen")
     private String tenQuyen;
 
